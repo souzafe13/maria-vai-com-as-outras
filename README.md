@@ -28,9 +28,13 @@ Cada lugar guarda o **filme ou a série que me levou até lá**. Os lugares fica
 
 ## Capturas de tela
 
-| Login | Meus lugares | Detalhes | Novo lugar |
-|---|---|---|---|
-| <img src="docs/login.jpg" width="200"> | <img src="docs/lista.jpg" width="200"> | <img src="docs/detalhes.jpg" width="200"> | <img src="docs/formulario.jpg" width="200"> |
+| Login | Cadastro | Meus lugares |
+|---|---|---|
+| <img src="docs/login.jpg" width="200"> | <img src="docs/cadastro.jpg" width="200"> | <img src="docs/lista.jpg" width="200"> |
+
+| Detalhes | Novo lugar |
+|---|---|
+| <img src="docs/detalhes.jpg" width="200"> | <img src="docs/formulario.jpg" width="200"> |
 
 ## Integrante
 
