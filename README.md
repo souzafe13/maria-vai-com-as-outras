@@ -26,19 +26,17 @@ Cada lugar guarda o **filme ou a série que me levou até lá**. Os lugares fica
 
 > Projeto P3 (Sistema): aplicação mobile com React Native no front-end e Spring Boot no back-end.
 
-<!--
 ## Capturas de tela
 
 | Login | Meus lugares | Detalhes | Novo lugar |
 |---|---|---|---|
-| ![Login](docs/login.png) | ![Lista](docs/lista.png) | ![Detalhes](docs/detalhes.png) | ![Formulário](docs/formulario.png) |
--->
+| <img src="docs/login.jpg" width="200"> | <img src="docs/lista.jpg" width="200"> | <img src="docs/detalhes.jpg" width="200"> | <img src="docs/formulario.jpg" width="200"> |
 
 ## Integrante
 
 | Nome completo | RM |
 |---|---|
-| Fernanda Maria de Souza | RM 1142823560  |
+| Fernanda Maria de Souza | RM 1142823560 |
 
 ## Funcionalidades
 
@@ -132,29 +130,4 @@ Leia o QR code com o Expo Go.
 
 | Método | Rota | Descrição | Autenticação |
 |---|---|---|---|
-| POST | `/auth/register` | Cria a conta e devolve o token | Não |
-| POST | `/auth/login` | Faz login e devolve o token | Não |
-| GET | `/places?status=` | Lista os lugares (`VISITED` ou `WANT_TO_GO`) | Sim |
-| POST | `/places` | Cria um lugar | Sim |
-| PUT | `/places/{id}` | Atualiza um lugar | Sim |
-| DELETE | `/places/{id}` | Exclui um lugar | Sim |
-
-Cada usuário só enxerga e altera os próprios lugares.
-
-## Estrutura
-
-```
-backend/   API Spring Boot (controller, dto, model, repository, security)
-frontend/  App React Native
-  App.js           navegação
-  src/api.js       única função que usa fetch
-  src/AuthContext  estado de login
-  src/screens      uma tela por arquivo
-  src/components   Button, Field, KeyboardScroll, PhotoBox
-```
-
-## Observações
-
-- As fotos ficam apenas no celular (AsyncStorage guarda o endereço da imagem). Em outro aparelho, os lugares aparecem sem as fotos.
-- O token JWT vale por 24 horas. Depois disso, o app volta para a tela de login.
-- O H2 Console está liberado apenas para desenvolvimento. Em produção essa rota seria removida e o banco trocado por MySQL ou PostgreSQL.
+| POST |
